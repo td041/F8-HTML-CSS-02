@@ -187,4 +187,66 @@ body{
 .courses{
     margin-left: 16px;
 }
-
+/* Popular */
+.popular{
+    padding: 200px 0;
+}
+.popular .popular-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular .sub-title{
+    color: #171100;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+.popular .text{
+    margin-top: 16px;
+    width: 458px;
+    color: #5F5B53;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.popular-2{
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-between;
+}
+.popular-2 .sub-title{
+    color: #171100;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+}
+.popular-2 .row{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 22px 6px 22px;
+    align-items: center;
+}
+.popular-2 .text{
+    width: 326px;
+    color: #5F5B53;
+    font-size: 14px;    
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+    margin-left: 22px;
+}
+.popular-2 .price{
+    margin-left: 22px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 12px;
+}
+.popular-2 .button{
+    width: 118px;
+    height: 50px;
+}
+.popular-2 .button:hover{
+    background: #FFB900;
+}
