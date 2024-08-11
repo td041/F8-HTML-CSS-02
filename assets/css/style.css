@@ -211,6 +211,26 @@ body{
     font-weight: 400;
     line-height: 30px; /* 166.667% */
 }
+.popular-1 .small-button{
+    display: flex;
+    gap: 18px
+}
+.popular-1 .item:hover{
+    background-color: #FFB900;
+}
+.popular-1 .item:hover svg path{
+    stroke: white;
+}
+.popular-1 .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #FFB900;
+    background-color: #ffffff;
+}
 .popular-2{
     display: flex;
     margin-top: 55px;
@@ -294,7 +314,7 @@ body{
 .quote .content{
     display: flex;
     align-items: center ;
-    padding: 135px 0;
+    padding: 96px 0;
 }
 .quote .quote-info{
     margin-left: 271px;
