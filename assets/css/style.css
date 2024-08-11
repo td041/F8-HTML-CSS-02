@@ -5,6 +5,9 @@
 body{
     font-family: Poppins;
 }
+main body{
+    scroll-behavior: smooth;
+}
 main{
     position: relative;
 }
@@ -543,6 +546,7 @@ main{
     gap: 130px;
 }
 .footer-list .text{
+    white-space: nowrap;
     margin-top: 12px;
     display: inline-block;
 }
@@ -564,4 +568,7 @@ main{
 .footer .copyright{
     text-align: center;
     margin-top: 28px;
+}
+.footer .text-1{
+    white-space: normal;
 }
