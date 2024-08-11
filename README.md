@@ -1,7 +1,13 @@
+#Project 2 của F8
+
 # F8-HTML-CSS-02
 
-#Education Plattform Website 
+#Education Plattform Website(Easy)
 
 #Đây chỉ là giao diện đơn giản cho PC.
 
+Link figma: https://www.figma.com/design/Vyto82ebt8E0GoqBtpzGfS/02.-Education-Platform-Website-(Easy)?node-id=28-2&t=oLcYcojtEW9378SX-0
+
 #11/08/2024
+
+
