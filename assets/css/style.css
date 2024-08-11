@@ -187,6 +187,9 @@ body{
 .courses{
     margin-left: 16px;
 }
+.hero .button:hover{
+    opacity: 0.8;
+}
 /* Popular */
 .popular{
     /* background-color: palegreen; */
@@ -283,6 +286,9 @@ body{
 }
 .popular-2 .button:hover{
     background: #FFB900;
+}
+.popular-2 a{
+    text-decoration: none;
 }
 /* Quote */
 .quote{
@@ -393,6 +399,9 @@ body{
 .features-2 .text{
     margin-top: 16px;
 }
+.features .button:hover{
+    opacity: 0.8;
+}
 /* Blog */
 .blog{
     padding: 96px 0;
@@ -466,6 +475,12 @@ body{
 .dot{
     margin-top: 38px;
     text-align: center;
+}
+.blog a{
+    text-decoration: none
+}
+.blog .button:hover{
+    opacity: 0.8;
 }
 /* Footer */
 .footer{
