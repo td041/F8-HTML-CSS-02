@@ -5,6 +5,9 @@
 body{
     font-family: Poppins;
 }
+main{
+    position: relative;
+}
 .content{
     width: 1170px;
     max-width: calc(100%-48px);
@@ -26,6 +29,10 @@ body{
 }
 /* Header */
 .neo-header{
+    padding-top: 32px;
+    position: sticky;
+    top: -32px;
+    z-index: 1;
     background: #FFFCF4;
 }
 .navbar ul{
@@ -48,14 +55,15 @@ body{
     font-weight: 600;
     line-height: 28px; /* 175% */
 }
-.navbar ul li:hover{
-    text-decoration: underline;
+.navbar ul li:hover a{
+    text-shadow: 1px 0 0 currentColor;
+    color: #171100;
 }
 .navbar{
+    padding: 12px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 46px;
 }
 .navbar .navigation{
     display: flex;
@@ -74,6 +82,7 @@ body{
     left: 0;
     border-radius: 1px 0px 0px 0px;
 }
+
 /* Hero */
 .hero{
     background: #FFFCF4;
