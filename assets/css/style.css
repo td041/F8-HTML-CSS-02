@@ -82,7 +82,9 @@ main{
     left: 0;
     border-radius: 1px 0px 0px 0px;
 }
-
+.neo-header .button:hover{
+    opacity: 0.8;
+}
 /* Hero */
 .hero{
     background: #FFFCF4;
@@ -286,7 +288,11 @@ main{
 }
 .popular-2 .course{
     border-radius: 12px;
+    border: 1px solid #e2dfda;
     background: #FFF;
+}
+.popular-2 .course:hover{
+    border-color: transparent;
     box-shadow: 0px 18px 36px 0px rgba(14, 11, 11, 0.05);
 }
 .popular-2 .button{
@@ -462,6 +468,8 @@ main{
 .news{
     border-radius: 16px;
     background: #FFF;
+}
+.blog .news:hover{
     box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
 }
 .news .line{
