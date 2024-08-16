@@ -6,7 +6,7 @@
 
 #Đây chỉ là giao diện đơn giản cho PC.
 
-Link figma: https://www.figma.com/design/Vyto82ebt8E0GoqBtpzGfS/02.-Education-Platform-Website-(Easy)?node-id=28-2&t=oLcYcojtEW9378SX-0
+Link figma: https://www.figma.com/design/Vyto82ebt8E0GoqBtpzGfS/02.-Education-Platform-Website-(Easy)
 
 #11/08/2024
 
